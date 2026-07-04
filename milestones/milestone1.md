@@ -6,9 +6,9 @@ This document should be completed and submitted during **Unit 5** of this course
 
 This unit, be sure to complete all tasks listed below. To complete a task, place an `x` between the brackets.
 
-- [ ] Read and understand all required features
-  - [ ] Understand you **must** implement **all** baseline features and **two** custom features
-- [ ] In `readme.md`: update app name to your app's name
+- [x] Read and understand all required features
+  - [x] Understand you **must** implement **all** baseline features and **two** custom features
+- [x] In `readme.md`: update app name to your app's name
 - [ ] In `readme.md`: add all group members' names
 - [ ] In `readme.md`: complete the **Description and Purpose** section
 - [ ] In `readme.md`: complete the **Inspiration** section
@@ -21,12 +21,13 @@ This unit, be sure to complete all tasks listed below. To complete a task, place
 
 ### 1. What went well during this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+Our group communicated well and worked together to plan out our project. Numerous ideas were exchanged and the meeting went smoothly.
 
 ### 2. What were some challenges your group faced in this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+Our group struggled to come up with user stories and user roles quickly. We came up with responses much slower than other parts of milestone 1 tasks.
 
 ### 3. What additional support will you need in upcoming units as you continue to work on your final project?
 
-[👉🏾👉🏾👉🏾 your answer here]
+Trying to come together as a group and work on the project. Merge conflicts, branching, etc.. all the fun stuff
+that comes with working in a group.

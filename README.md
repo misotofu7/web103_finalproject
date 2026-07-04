@@ -1,8 +1,8 @@
-# [your app name here]
+# Rate My Advisor
 
 CodePath WEB103 Final Project
 
-Designed and developed by: [your names here]
+Designed and developed by: Kaylie Chang, Mohtashim Syed, Alex Gong, Justin Wong, Fiyinfoluwa Somorin, Isfahan Juboraj
 
 🔗 Link to deployed app:
 
@@ -10,35 +10,65 @@ Designed and developed by: [your names here]
 
 ### Description and Purpose
 
-[text goes here]
+Rate My Advisor is an app where students can find, review, and rate academic advisors based on helpfulness availability, communication, and overall support.
 
 ### Inspiration
 
-[text goes here]
+The inspiration stems from negative personal experience with advisors in the past. I (Fiyin) wish I could have had a system in place to get an idea of the type of advisor I (Fiyin) had available before hand, like rate my professor so this idea is inspired from that. 
 
 ## Tech Stack
 
 Frontend:
+- React
+- CSS
+- JS
+- HTML
 
 Backend:
+- Express (Render db)
+- JS
 
 ## Features
 
-### [Name of Feature 1]
+### Browse list of advisors available to the specific university
 
-[short description goes here]
-
-[gif goes here]
-
-### [Name of Feature 2]
-
-[short description goes here]
+List page shows all advisors that were rated on the website. User can filter through tags to find best advisor to fit their needs.
 
 [gif goes here]
 
-### [Name of Feature 3]
+### User can click on advisor to see detailed information on the related content
 
-[short description goes here]
+User can click on advisors to view their profiles and current reviews given by students.
+
+[gif goes here]
+
+### Allow user to add new advisors
+
+Users can add advisors to the website via a form if they are not already added
+
+[gif goes here]
+
+### User can rate advisor and explain why
+
+User can rate the advisor out of 5 stars and explain why they believe that the advisor deserves that score.
+
+[gif goes here]
+
+### Likes on Comments
+
+Allow users mark reviews as helpful so that the best reviews are appear first
+
+[gif goes here]
+
+### Report Button
+
+Report button for review on foul and abusive language
+
+[gif goes here]
+
+### Letter grades are applied on advisors overall ratings for quick student viewing
+
+Students can search for good advisors quickly by viewing the letter grade given to each advisor based on their overall ratings (e.g. A+, A, A-, B+, etc.).
 
 [gif goes here]
 
