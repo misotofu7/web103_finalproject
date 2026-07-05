@@ -30,8 +30,8 @@ Advisor
 
 7. As a student, I want to search or filter advisors by major, university, or advising area, so that I can find advisors who are relevant to my academic goals.
 
-8. As a prospective student, I want to [what], so that [why].
+8. As a prospective student, I want to view a university's overall advisor ratings before applying, so that I can gauge the quality of academic support I would receive if I enrolled.
 
-9. As an advisor, I want to [what], so that [why].
+9. As an advisor, I want to respond publicly to the reviews left about me, so that I can provide context, address concerns, and show students that I value their feedback.
 
 10. As an advisor, I want to see patterns in my reviews, so that I can improve how I advise students.
