@@ -4,7 +4,7 @@ CodePath WEB103 Final Project
 
 Designed and developed by: Kaylie Chang, Mohtashim Syed, Alex Gong, Justin Wong, Fiyinfoluwa Somorin, Isfahan Juboraj
 
-🔗 Link to deployed app:
+🔗 Link to deployed app: 
 
 ## About
 
@@ -30,43 +30,43 @@ Backend:
 
 ## Features
 
-### Browse list of advisors available to the specific university
+### (1) Browse list of advisors available to the specific university
 
 List page shows all advisors that were rated on the website. User can filter through tags to find best advisor to fit their needs.
 
 [gif goes here]
 
-### User can click on advisor to see detailed information on the related content
+### (2) User can click on advisor to see detailed information on the related content
 
 User can click on advisors to view their profiles and current reviews given by students.
 
 [gif goes here]
 
-### Allow user to add new advisors
+### (3) Allow user to add new advisors
 
 Users can add advisors to the website via a form if they are not already added
 
 [gif goes here]
 
-### User can rate advisor and explain why
+### (4) User can rate advisor and explain why
 
 User can rate the advisor out of 5 stars and explain why they believe that the advisor deserves that score.
 
 [gif goes here]
 
-### Likes on Comments
+### (5) Likes on Comments
 
 Allow users mark reviews as helpful so that the best reviews are appear first
 
 [gif goes here]
 
-### Report Button
+### (6) Report Button
 
 Report button for review on foul and abusive language
 
 [gif goes here]
 
-### Letter grades are applied on advisors overall ratings for quick student viewing
+### (7) Letter grades are applied on advisors overall ratings for quick student viewing
 
 Students can search for good advisors quickly by viewing the letter grade given to each advisor based on their overall ratings (e.g. A+, A, A-, B+, etc.).
 

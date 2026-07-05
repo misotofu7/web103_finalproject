@@ -4,36 +4,34 @@ Reference the Writing User Stories final project guide in the course portal for 
 
 ## Outline User Roles
 
-Student: a user who is looking for advisor options
-- frustration at a particularly bad experience with an advisor --> want to share their story with others so that they can avoid it
-- get an idea of how good the university's advisors are before committing
-- had an amazing experience with an advisor that they want to share about
-- 
+Student:
+- A current student who wants to find, compare, and review university advisors.
+- Students use the app to read other students’ experiences, choose advisors who fit their needs, and share positive or negative feedback after meeting with an advisor.
 
-Advisor: a user who is looking at their own reviews
-- just curious about how well they help their students
+Prospective Student:
+- A student who wants to get an idea of how good a university's advisors are before committing.
 
-School:
-- maybe used to review how well they do th
+Advisor
+- A university advisor who wants to view student feedback in order to understand students’ experiences and improve their advising.
 
 ## Draft User Stories
 
-1. As a student, I want to browse a list of advisors, so that I can see what advising options are available.
+1. As a student, I want to browse advisors from my university, so that I can see which advising options are available to me.
 
-2. As a student, I want to [what], so that [why].
+2. As a student, I want to view an advisors' profile, areas of expertise, and public contact information, so that I can decide whether they are a good fit for my needs.
 
-3. As a student, I want to be able to view an advisor's ratings/reviews, so that I can choose the best advisor
+3. As a student, I want to read an advisor's ratings and reviews, so that I can learn from other students' experiences before choosing an advisor.
 
-4. As a student, I want to be able to give an advisor a rating/review, so that I can better inform incoming students
+4. As a student, I want to submit a rating and review for an advisor, so that I can share my experience with other students.
 
-5. As a [user role], I want to [what], so that [why].
+5. As a student, I want to upvote or downvote student reviews, so that the most helpful reviews are easier for others to find.
 
-6. As a [user role], I want to [what], so that [why].
+6. As a student, I want report inappropriate or disrespectful reviews, so that the site remains useful, respectful, and safe.
 
-7. As a [user role], I want to [what], so that [why].
+7. As a student, I want to search or filter advisors by major, university, or advising area, so that I can find advisors who are relevant to my academic goals.
 
-8. As a [user role], I want to [what], so that [why].
+8. As a prospective student, I want to [what], so that [why].
 
 9. As an advisor, I want to [what], so that [why].
 
-10. As an advisor, I want to be able to view student reviews, so that I can improve my advising.
+10. As an advisor, I want to see patterns in my reviews, so that I can improve how I advise students.
