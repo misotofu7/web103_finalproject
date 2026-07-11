@@ -6,15 +6,23 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 [👉🏾👉🏾👉🏾 List the pages you expect to have in your app, with a ⭐ next to pages you have wireframed]
 
-## Wireframe 1: [page title]
+⭐ Listing all advisors of a specific university (in alphabetical order)
+⭐ Advisor profile page with all comments/ratings below
+- Comment page
+⭐ Default main page (search for university)
+
+Stretch feat. pages:
+- Compare page (stretch)
+
+## Wireframe 1: Homepage
 
 [👉🏾👉🏾👉🏾 include wireframe 1]
 
-## Wireframe 2: [page title]
+## Wireframe 2: University Advisors
 
 [👉🏾👉🏾👉🏾 include wireframe 2]
 
-## Wireframe 3: [page title]
+## Wireframe 3: Advisor Profile
 
 [👉🏾👉🏾👉🏾 include wireframe 3]
 
