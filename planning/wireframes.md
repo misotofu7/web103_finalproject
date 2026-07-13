@@ -16,7 +16,7 @@ Stretch feat. pages:
 
 ## Wireframe 1: Homepage
 
-[👉🏾👉🏾👉🏾 include wireframe 1]
+![Homepage Wireframe](client/src/assets/homepage.png)
 
 ## Wireframe 2: University Advisors
 

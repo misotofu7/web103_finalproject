@@ -50,6 +50,8 @@ erDiagram
 
 [👉🏾👉🏾👉🏾 Include an image or images of the diagram below. You may also wish to use the following markdown syntax to outline each table, as per your preference.]
 
+![Entity Relationship Diagram](client/src/assets/ERD.png)
+
 | Column Name | Type | Description |
 |-------------|------|-------------|
 | id | integer | primary key |
