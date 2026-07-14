@@ -20,7 +20,7 @@ Stretch feat. pages:
 
 ## Wireframe 2: University Advisors
 
-[👉🏾👉🏾👉🏾 include wireframe 2]
+![University Advisors wireframe](images/university-advisors-wireframe.png)
 
 ## Wireframe 3: Advisor Profile
 
