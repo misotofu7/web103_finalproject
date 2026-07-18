@@ -10,7 +10,7 @@ You will need to reference the GitHub Project Management guide in the course por
 
 - [ ] In your repo, create a project board.
   - *Please be sure to share your project board with the grading team's GitHub **codepathreview**. This is separate from your repository's sharing settings.*
-- [ ] In your repo, create at least 5 issues from the features on your feature list.
+- [x] In your repo, create at least 5 issues from the features on your feature list.
   - List the title of each issue you created:
     1. Add page to view a list of all advisors from the searched university
     2. Add page to view an advisor's profile
