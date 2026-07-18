@@ -25,5 +25,3 @@ Stretch feat. pages:
 ## Wireframe 3: Advisor Profile
 
 ![Advisor Profile wireframe](images/advisor-profile-wireframe.png)
-
-[👉🏾👉🏾👉🏾 include more wireframes as desired]
