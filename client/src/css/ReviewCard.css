@@ -1,10 +1,10 @@
 .review-card {
   background: #ffffff;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #cbd5e1;
   border-radius: 12px;
   padding: 1.5rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: #334155;
 }
 
@@ -21,34 +21,40 @@
 }
 
 .username {
-  font-weight: 600;
-  color: #1e293b;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0f172a;
 }
 
 .review-date {
-  font-size: 0.85rem;
-  color: #64748b;
   margin-top: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #64748b;
 }
 
 .overall-rating {
-  background: #f1f5f9;
-  padding: 0.5rem 0.75rem;
-  border-radius: 8px;
-  font-weight: 700;
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+  padding: 0.55rem 0.8rem;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 10px;
 }
 
 .rating-num {
-  color: #2563eb;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #1d4ed8;
 }
 
 .rating-label {
-  color: #94a3b8;
   font-size: 0.85rem;
+  font-weight: 500;
+  color: #64748b;
 }
-
-/* Sub-ratings */
 
 .sub-ratings {
   display: flex;
@@ -60,59 +66,62 @@
 .rating-row {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 0.45rem;
 }
 
 .rating-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.9rem;
+  font-size: 0.92rem;
   font-weight: 500;
-  color: #475569;
+  color: #334155;
+}
+
+.rating-top span:last-child {
+  font-weight: 500;
+  color: #1e293b;
 }
 
 .rating-segments {
   display: flex;
-  gap: 6px;
+  gap: 3px;
 }
 
 .segment {
   flex: 1;
-  height: 8px;
-  background: #e2e8f0;
-  border-radius: 999px;
+  height: 6px;
+  background: #cbd5e1;
+  border-radius: 4px;
   overflow: hidden;
 }
 
 .segment-fill {
   height: 100%;
-  background: #2563eb;
-  border-radius: inherit;
-  transition: width 0.3s ease;
+  background: #3b82f6;
+  border-radius: 4px;
+  transition: width 0.25s ease;
 }
-
-/* Review text */
 
 .review-comment {
-  line-height: 1.5;
+  margin: 0 0 1.25rem;
   font-style: italic;
-  color: #334155;
-  margin: 0 0 1.25rem 0;
+  line-height: 1.6;
+  color: #1e293b;
 }
 
-/* Footer */
-
 .review-footer {
-  border-top: 1px solid #f1f5f9;
-  padding-top: 0.75rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid #e2e8f0;
 }
 
 .recommend-tag {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.75rem;
   font-size: 0.85rem;
-  font-weight: 500;
-  padding: 0.3rem 0.65rem;
+  font-weight: 700;
   border-radius: 999px;
 }
 
