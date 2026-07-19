@@ -1,0 +1,93 @@
+.review-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #334155;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.review-date {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 0.25rem;
+}
+
+.overall-rating {
+  background: #f1f5f9;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.rating-num {
+  color: #2563eb;
+  font-size: 1.1rem;
+}
+
+.rating-label {
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+.sub-ratings {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.rating-chip {
+  font-size: 0.85rem;
+  background: #f8fafc;
+  border: 1px solid #f1f5f9;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  color: #475569;
+}
+
+.review-comment {
+  line-height: 1.5;
+  font-style: italic;
+  color: #334155;
+  margin: 0 0 1.25rem 0;
+}
+
+.review-footer {
+  border-top: 1px solid #f1f5f9;
+  padding-top: 0.75rem;
+}
+
+.recommend-tag {
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.recommend-tag.yes {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.recommend-tag.no {
+  background: #fee2e2;
+  color: #b91c1c;
+}
