@@ -17,6 +17,7 @@ You will need to reference the GitHub Project Management guide in the course por
     3. Add on to advisor profile student comments and ratings
     4. Add page for student to fill out ratings and reviews for the advisor
     5. Add a report button next to all student comments
+    6. Set up and validate the backend
 - [ ] In your repo, update the status of issues in your project board.
 - [ ] In your repo, create a GitHub Milestone for each final project unit, corresponding to each of the 5 milestones in your `milestones/` directory.
   - List the name of each milestone you created:

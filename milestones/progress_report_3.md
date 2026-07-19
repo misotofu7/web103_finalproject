@@ -11,7 +11,7 @@ List the title of each issue you created, one per line:
 - Add on to advisor profile student comments and ratings
 - Add page for student to fill out ratings and reviews for the advisor
 - Add a report button next to all student comments
-- 
+- Set up and validate the backend
 
 ## GitHub Milestones Created
 List the name of each GitHub Milestone you created, one per line:
