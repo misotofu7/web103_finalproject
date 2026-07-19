@@ -1,20 +1,30 @@
 import "../css/ReviewCard.css";
 
-const RatingBar = ({ label, value }) => (
-  <div className="rating-row">
-    <div className="rating-top">
-      <span>{label}</span>
-      <span>{value}/5</span>
-    </div>
+const RatingBar = ({ label, value }) => {
+  return (
+    <div className="rating-row">
+      <div className="rating-top">
+        <span>{label}</span>
+        <span>{value.toFixed(1)}/5</span>
+      </div>
 
-    <div className="rating-bar">
-      <div
-        className="rating-fill"
-        style={{ width: `${(value / 5) * 100}%` }}
-      />
+      <div className="rating-segments">
+        {[0, 1, 2, 3, 4].map((i) => {
+          const fill = Math.max(0, Math.min(1, value - i));
+
+          return (
+            <div key={i} className="segment">
+              <div
+                className="segment-fill"
+                style={{ width: `${fill * 100}%` }}
+              />
+            </div>
+          );
+        })}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 const ReviewCard = ({ review }) => {
   const {
