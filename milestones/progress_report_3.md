@@ -1,7 +1,7 @@
 # Milestone 3 Progress Report
 
 ## GitHub Project Setup
-Project board created: yes or no
+Project board created: yes
 Project board shared with codepathreview: yes or no
 
 ## Issues Created
@@ -25,4 +25,4 @@ List each issue you completed this unit and the main file or folder where that w
 
 ## Features Completed This Unit
 List each feature you completed and checked off in readme.md this unit, one per line:
-- Example: Search events by category
+- Browse list of advisors available to the specific university

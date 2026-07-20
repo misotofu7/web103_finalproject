@@ -30,11 +30,11 @@ Backend:
 
 ## Features
 
-### (1) Browse list of advisors available to the specific university
+### (1) [x] Browse list of advisors available to the specific university
 
 List page shows all advisors that were rated on the website. User can filter through tags to find best advisor to fit their needs.
 
-[gif goes here]
+![University advisor list demo](client/src/assets/university-advisor-list.gif)
 
 ### (2) User can click on advisor to see detailed information on the related content
 
