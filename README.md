@@ -36,7 +36,7 @@ List page shows all advisors that were rated on the website. User can filter thr
 
 ![University advisor list demo](client/src/assets/university-advisor-list.gif)
 
-### (2) User can click on advisor to see detailed information on the related content
+### (2) ✅ User can click on advisor to see detailed information on the related content
 
 User can click on advisors to view their profiles and current reviews given by students.
 
