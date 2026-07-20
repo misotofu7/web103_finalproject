@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "../css/ReviewCard.css";
 
 const RatingBar = ({ label, value }) => {
@@ -27,6 +28,9 @@ const RatingBar = ({ label, value }) => {
 };
 
 const ReviewCard = ({ review }) => {
+  // Add state to track if the review has been reported
+  const [isReported, setIsReported] = useState(false);
+
   const {
     username,
     overall_rating,
@@ -36,6 +40,11 @@ const ReviewCard = ({ review }) => {
     would_recommend,
     datetime_unix,
   } = review;
+
+  // If the comment is reported, return null to immediately hide it
+  if (isReported) {
+    return null;
+  }
 
   const formattedDate = new Date(datetime_unix).toLocaleDateString(undefined, {
     year: "numeric",
@@ -68,7 +77,17 @@ const ReviewCard = ({ review }) => {
         />
       </div>
 
-      <p className="review-comment">"{comment}"</p>
+      {/* Flex container to place the report button next to the comment */}
+      <div className="comment-section" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+        <p className="review-comment">"{comment}"</p>
+        <button 
+          className="report-btn" 
+          onClick={() => setIsReported(true)} 
+          style={{ color: "red", cursor: "pointer", border: "none", background: "none", fontWeight: "bold" }}
+        >
+          Report
+        </button>
+      </div>
 
       <div className="review-footer">
         {would_recommend ? (
