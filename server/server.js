@@ -1,37 +1,61 @@
-import express from 'express'
-import path from 'path'
-import dotenv from 'dotenv'
-import cors from 'cors'
+import cors from "cors";
+import express from "express";
 
-// import the router from your routes file
-// example: import carRoute from './routes/cars.js'
+const app = express();
+const port = 3001;
 
-dotenv.config()
+app.use(cors());
+app.use(express.json());
 
-const PORT = process.env.PORT || 3000
+const advisors = [
+  {
+    id: 1,
+    name: "Aisha Patel",
+    university: "New York University",
+    specialty: "Computer Science",
+    department: "Tandon School of Engineering",
+    rating: 4.8,
+  },
+  {
+    id: 2,
+    name: "Daniel Kim",
+    university: "New York University",
+    specialty: "Pre-Health",
+    department: "College of Arts and Science",
+    rating: 4.5,
+  },
+  {
+    id: 3,
+    name: "Maria Gonzalez",
+    university: "New York University",
+    specialty: "Business and Finance",
+    department: "Stern School of Business",
+    rating: 4.7,
+  },
+];
 
-const app = express()
+app.get("/api/universities/:universityName/advisors", (request, response) => {
+  const universityName = request.params.universityName.toLowerCase();
 
-app.use(express.json())
-app.use(cors())
+  const matchingAdvisors = advisors.filter(
+    (advisor) => advisor.university.toLowerCase() === universityName,
+  );
 
-if (process.env.NODE_ENV === 'development') {
-    app.use(favicon(path.resolve('../', 'client', 'public', 'lightning.png')))
-}
-else if (process.env.NODE_ENV === 'production') {
-    app.use(favicon(path.resolve('public', 'lightning.png')))
-    app.use(express.static('public'))
-}
+  response.json(matchingAdvisors);
+});
 
-// specify the api path for the server to use
-// example: app.use('/car', carRoute)
+app.get("/api/advisors/:id", (request, response) => {
+  const advisor = advisors.find(
+    (currentAdvisor) => currentAdvisor.id === Number(request.params.id),
+  );
 
-if (process.env.NODE_ENV === 'production') {
-    app.get('/*', (_, res) =>
-        res.sendFile(path.resolve('public', 'index.html'))
-    )
-}
+  if (!advisor) {
+    return response.status(404).json({ error: "Advisor not found" });
+  }
 
-app.listen(PORT, () => {
-    console.log(`server listening on http://localhost:${PORT}`)
-})
+  response.json(advisor);
+});
+
+app.listen(port, () => {
+  console.log(`Server listening on http://localhost:${port}`);
+});
