@@ -40,7 +40,7 @@ List page shows all advisors that were rated on the website. User can filter thr
 
 User can click on advisors to view their profiles and current reviews given by students.
 
-[gif goes here]
+![Advisor profile demo](client/src/assets/advisor-profile.gif)
 
 ### (3) Allow user to add new advisors
 
