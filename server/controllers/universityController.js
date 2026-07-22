@@ -110,6 +110,8 @@ const createUniversity = async (req, res) => {
     }
 };
 
+// update and delete???
+
 export default {
   getUniversities,
   getAdvisorsByUniversity,
