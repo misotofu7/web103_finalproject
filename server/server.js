@@ -5,7 +5,9 @@ import dotenv from 'dotenv'
 import cors from 'cors'
 
 // import the router from your routes file
-// import router from './routes/route.js'
+import advisorRoutes from "./routes/advisorRoutes.js";
+import reviewRoutes from "./routes/reviewRoutes.js";
+import universityRoutes from "./routes/universityRoutes.js";
 
 dotenv.config()
 
@@ -13,6 +15,7 @@ const PORT = process.env.PORT || 3000
 
 const app = express();
 
+// middleware
 app.use(express.json());
 app.use(cors());
 
@@ -25,56 +28,16 @@ else if (process.env.NODE_ENV === 'production') {
 }
 
 // specify the api path for the server to use
-// app.use('/api', router);
+app.use("/advisors", advisorRoutes);
+app.use("/reviews", reviewRoutes);
+app.use("/universities", universityRoutes);
 
-// const advisors = [
-//   {
-//     id: 1,
-//     name: "Aisha Patel",
-//     university: "New York University",
-//     specialty: "Computer Science",
-//     department: "Tandon School of Engineering",
-//     rating: 4.8,
-//   },
-//   {
-//     id: 2,
-//     name: "Daniel Kim",
-//     university: "New York University",
-//     specialty: "Pre-Health",
-//     department: "College of Arts and Science",
-//     rating: 4.5,
-//   },
-//   {
-//     id: 3,
-//     name: "Maria Gonzalez",
-//     university: "New York University",
-//     specialty: "Business and Finance",
-//     department: "Stern School of Business",
-//     rating: 4.7,
-//   },
-// ];
-
-// app.get("/api/universities/:universityName/advisors", (request, response) => {
-//   const universityName = request.params.universityName.toLowerCase();
-
-//   const matchingAdvisors = advisors.filter(
-//     (advisor) => advisor.university.toLowerCase() === universityName,
-//   );
-
-//   response.json(matchingAdvisors);
-// });
-
-// app.get("/api/advisors/:id", (request, response) => {
-//   const advisor = advisors.find(
-//     (currentAdvisor) => currentAdvisor.id === Number(request.params.id),
-//   );
-
-//   if (!advisor) {
-//     return response.status(404).json({ error: "Advisor not found" });
-//   }
-
-//   response.json(advisor);
-// });
+// 404 handler if no route is matched
+app.use("/", (req, res) => {
+    res.status(404).json({
+        message: "API route not found",
+    });
+});
 
 if (process.env.NODE_ENV === 'production') {
     app.get('/*', (_, res) =>
