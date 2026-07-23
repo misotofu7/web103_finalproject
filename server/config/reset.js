@@ -28,8 +28,7 @@ const resetDatabase = async () => {
         await client.query(`
             CREATE TABLE universities (
                 university_id SERIAL PRIMARY KEY,
-                name VARCHAR(255) NOT NULL,
-                department VARCHAR(255) NOT NULL
+                name VARCHAR(255) NOT NULL UNIQUE
             );
         `);
 
@@ -50,6 +49,7 @@ const resetDatabase = async () => {
                 first_name VARCHAR(100) NOT NULL,
                 last_name VARCHAR(100) NOT NULL,
                 email VARCHAR(255) NOT NULL UNIQUE,
+                department VARCHAR(255) NOT NULL,
                 office VARCHAR(255),
 
                 FOREIGN KEY (university_id)

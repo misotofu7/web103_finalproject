@@ -42,12 +42,14 @@ const getAdvisorById = async (req, res) => {
 }
 
 const createAdvisor = async (req, res) => {
+
     try {
         const {
             university_id,
             first_name,
             last_name,
             email,
+            department,
             office
         } = req.body
 
